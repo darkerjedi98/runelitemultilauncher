@@ -1,4 +1,4 @@
-Place the .py file in the RuneLite Directory
+Place the .py file and the text file firsttext.txt in the RuneLite Directory
 default username is:
 
 admin
