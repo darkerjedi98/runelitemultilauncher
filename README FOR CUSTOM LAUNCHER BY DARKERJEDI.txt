@@ -1,9 +1,2 @@
-Place the .py file and the text file firsttext.txt in the RuneLite Directory
-default username is:
-
-admin
-
-password is:
-
-default
-
+Place the .py file in the RuneLite Directory
+you can right click it and create desktop shortcut to make things easier, Enjoy!
