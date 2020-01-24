@@ -2,7 +2,7 @@ print("login by darkerjedi98")
 import base64
 import os
 CorrectUsername = "admin"
-CorrectPassword = "base64.b64decode(""ZGVmYXVsdA=="")"
+CorrectPassword = base64.b64decode('firsttext.txt')
 username = input("enter username: ")
 if username == CorrectUsername:
 	CorrectPassword == input(
@@ -31,4 +31,5 @@ if option1 == "a":
 	os.startfile(r'Runelite.exe')
 	os.startfile(r'Runelite.exe')
 if option1 == "b":
+	print("thank you for using darkerjedi's runescape launcher!")
 	input("Press Enter to continue...")
