@@ -18,18 +18,26 @@ print(" x=1 z=2 y=3 a=4 b=0 ")
 option1 = input("enter selection:")
 if option1 == "x":
 	os.startfile(r'Runelite.exe')
+	print("thank you for using darkerjedi's runescape launcher!")
+	input("Press Enter to continue...")
 if option1 == "z":
 	os.startfile(r'Runelite.exe')
 	os.startfile(r'Runelite.exe')
+	print("thank you for using darkerjedi's runescape launcher!")
+	input("Press Enter to continue...")
 if option1 == "y":
 	os.startfile(r'Runelite.exe')
 	os.startfile(r'Runelite.exe')
 	os.startfile(r'Runelite.exe')
+	print("thank you for using darkerjedi's runescape launcher!")
+	input("Press Enter to continue...")
 if option1 == "a":
 	os.startfile(r'Runelite.exe')
 	os.startfile(r'Runelite.exe')
 	os.startfile(r'Runelite.exe')
 	os.startfile(r'Runelite.exe')
+	print("thank you for using darkerjedi's runescape launcher!")
+	input("Press Enter to continue...")
 if option1 == "b":
 	print("thank you for using darkerjedi's runescape launcher!")
 	input("Press Enter to continue...")
