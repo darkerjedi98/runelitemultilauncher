@@ -5,4 +5,5 @@ you can right click the launcher.py and create desktop shortcut to make things e
 , Enjoy!
 
 credit to the_max for testing
+credit to the_max for art!
 credit to flux for testing
