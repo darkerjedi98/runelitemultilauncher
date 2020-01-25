@@ -43,7 +43,7 @@ def youtube():
     webbrowser.get('windows-default').open('https://www.youtube.com')
 
 
-HEIGHT = 220
+HEIGHT = 25
 WIDTH = 270
 
 root = tk.Tk()
@@ -55,52 +55,52 @@ background_image = tk.PhotoImage(file='image.png')
 background_label = tk.Label(root, image=background_image)
 background_label.place(relwidth=1, relheight=1)
 
-button = tk.Button(root, text="classic multi launcher", bg='green', fg='black', height=3, width=17, command=open2)
+button = tk.Button(root, text="classic multi launcher",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=open2)
 
 
-button.pack(fill = BOTH, expand = True,pady = 10, padx = 5)
+button.pack(fill = BOTH, expand = True,pady = 10, padx = 10)
 
 
-button = tk.Button(root, text="Runelite", bg='green', fg='black', height=3, width=17, command=open4)
+button = tk.Button(root, text="Runelite",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=open4)
 
-button.pack(fill = BOTH, expand = True,pady = 10, padx = 5)
+button.pack(fill = BOTH, expand = True,pady = 10, padx = 10)
 
 
-button = tk.Button(root, text="notepad", bg='green', fg='black', height=3, width=7, command=open)
+button = tk.Button(root, text="notepad",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=7, command=open)
 
-button.pack(fill = BOTH, expand = True,pady = 10, padx = 5)
+button.pack(fill = BOTH, expand = True,pady = 10, padx = 10)
 
-button = tk.Button(root, text="calc", bg='green', fg='black', height=3, width=5, command=open3)
+button = tk.Button(root, text="calc",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=10, command=open3)
 
-button.pack(fill = BOTH, expand = True,pady = 10, padx = 5)
+button.pack(fill = BOTH, expand = True,pady = 10, padx = 10)
 
-button = tk.Button(root, text="launch 2 runelite's", bg='green', fg='black', height=3, width=17, command=open5)
+button = tk.Button(root, text="launch 2 runelite's",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=open5)
 
-button.pack(fill = BOTH, expand = True,pady = 10, padx = 5)
+button.pack(fill = BOTH, expand = True,pady = 10, padx = 10)
 
-button = tk.Button(root, text="profit calc", bg='green', fg='black', height=3, width=17, command=launchcode)
+button = tk.Button(root, text="profit calc",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=launchcode)
 
-button.pack(fill = BOTH, expand = True,pady = 10, padx = 5)
+button.pack(fill = BOTH, expand = True,pady = 10, padx = 10)
 
-button = tk.Button(root, text="google", bg='green', fg='black', height=3, width=17, command=browser1)
-button.pack(fill = BOTH, expand = True,pady = 10, padx = 5)
+button = tk.Button(root, text="google",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=browser1)
+button.pack(fill = BOTH, expand = True,pady = 10, padx = 10)
 
-button = tk.Button(root, text="ge tracker", bg='green', fg='black', height=3, width=17, command=browser2)
-button.pack(side='left',pady = 10, padx = 5)
+button = tk.Button(root, text="ge tracker",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=browser2)
+button.pack(side='left',pady = 10, padx = 10)
 
-button = tk.Button(root, text="get weather", bg='green', fg='black', height=3, width=17, command=getweather)
-button.pack(side='left',pady = 10, padx = 5)
+button = tk.Button(root, text="get weather",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=getweather)
+button.pack(side='left',pady = 10, padx = 10)
 
-button = tk.Button(root, text="duckduckgo", bg='green', fg='black', height=3, width=17, command=duckduckgoose)
-button.pack(side='left',pady = 10, padx = 5)
+button = tk.Button(root, text="duckduckgo",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=duckduckgoose)
+button.pack(side='left',pady = 10, padx = 10)
 
-button = tk.Button(root, text="facebook", bg='green', fg='black', height=3, width=17, command=facebook)
-button.pack(side='left',pady = 10, padx = 5)
+button = tk.Button(root, text="facebook",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=facebook)
+button.pack(side='left',pady = 10, padx = 10)
 
-button = tk.Button(root, text="messenger", bg='green', fg='black', height=3, width=17, command=messenger)
-button.pack(side='left',pady = 10, padx = 5)
+button = tk.Button(root, text="messenger",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=messenger)
+button.pack(side='left',pady = 10, padx = 10)
 
-button = tk.Button(root, text="youtube", bg='green', fg='black', height=3, width=17, command=youtube)
-button.pack(side='left',pady = 10, padx = 5)
+button = tk.Button(root, text="youtube",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=youtube)
+button.pack(side='left',pady = 10, padx = 10)
 
 root.mainloop()
