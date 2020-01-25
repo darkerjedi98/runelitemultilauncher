@@ -11,6 +11,9 @@ def open3():
     os.startfile(r'calc')
 def open4():
     os.startfile(r'RuneLite.exe')
+def open5():
+    os.startfile(r'RuneLite.exe')
+    os.startfile(r'RuneLite.exe')
 
 HEIGHT = 220
 WIDTH = 270
@@ -41,5 +44,9 @@ button.pack(side='right')
 button = tk.Button(root, text="calc", bg='green', fg='black', height=3, width=5, command=open3)
 
 button.pack(side='right')
+
+button = tk.Button(root, text="launch 2 runelite's", bg='green', fg='black', height=3, width=17, command=open5)
+
+button.pack(side='left')
 
 root.mainloop()
