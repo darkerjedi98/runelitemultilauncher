@@ -1,6 +1,5 @@
 import tkinter as tk
 import os
-import keyboard
 import webbrowser
 from tkinter import *
 from tkinter import simpledialog
@@ -41,6 +40,10 @@ def messenger():
     webbrowser.get('windows-default').open('https://www.facebook.com/messages/t/')
 def youtube():
     webbrowser.get('windows-default').open('https://www.youtube.com')
+def githhub():
+    webbrowser.get('windows-default').open('https://github.com/darkerjedi98/runelitemultilauncher')
+def whatsapp():
+    webbrowser.get('windows-default').open('https://web.whatsapp.com/')
 
 
 HEIGHT = 25
@@ -102,5 +105,11 @@ button.pack(side='left',pady = 10, padx = 10)
 
 button = tk.Button(root, text="youtube",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=youtube)
 button.pack(side='left',pady = 10, padx = 10)
+
+button = tk.Button(root, text="githhub",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=githhub)
+button.pack(fill = BOTH, expand = True,pady = 10, padx = 10)
+
+button = tk.Button(root, text="whatsapp",font=('Helvetica', '10'), bg='green', fg='black', height=3, width=17, command=whatsapp)
+button.pack(fill = BOTH, expand = True,pady = 10, padx = 10)
 
 root.mainloop()
